@@ -341,8 +341,19 @@ body {
   z-index: 2;
   padding: 20px 40px 100px 40px;
   overflow: auto;
+  opacity: 0;
+  left: -100%;
+  transition: .3s ease;
 }
 
+.header-a-mobile-content.active {
+  left: 0;
+  opacity: 1;
+}
+
+.header-a-burger > span {
+  pointer-events: none;
+}
 
 .header-a-mobile-row {
   display: flex;
