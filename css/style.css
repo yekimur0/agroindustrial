@@ -552,6 +552,9 @@ body {
 }
 
 @media(any-hover: hover) {
+  .bottom-menu__link:hover {
+    background-color: #D0E642;
+  }
   .header-a__link:hover {
     color: #bed430;
   }
